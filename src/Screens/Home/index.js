@@ -6,7 +6,6 @@ const Home = () => {
     return(
         <SafeAreaView>
             <View>
-                <Title text='my first component' />
                 <Title />
             </View>
         </SafeAreaView>
