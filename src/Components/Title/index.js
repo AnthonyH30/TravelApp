@@ -9,7 +9,7 @@ const Title = () => {
 }
 
 Title.defaultProps ={
-    text: 'Default Text'
+    text: 'Default Text1'
 }
 
 export default React.memo(Title);
