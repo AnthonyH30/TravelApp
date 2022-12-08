@@ -2,9 +2,9 @@ import React from "react";
 import { Text } from "react-native";
 import styles from "./styles";
 
-const Title = () => {
+const Title = ({ text, style }) => {
     return(
-        <Text style={styles.title}>Teste</Text>
+        <Text style={[styles.title, style]}>{text}</Text>
     )
 }
 
