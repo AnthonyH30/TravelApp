@@ -1,23 +1,23 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-    Gallerycontainer: {
-        flex: 1
+    container: {
+        flex: 1,
     },
-    subtitle: {
-        fontSize: 20,
-        marginTop: 40,
-        color: 'black'
+    image: {
+        width: '100%',
+        height: 400,
+        borderRadius: 20,
+        marginBottom: 24,
+        paddingTop: 24
     },
-    row:{
-        flexDirection: "row",
-        flexWrap: 'wrap'
+    backContainer: {
+        position: 'absolute',
+        margin: 32,
     },
-    emptyText:{
-        textAlign: 'center',
-        marginTop: 24,
-        fontSize: 14,
-        color: 'rgba(0,0,0,0.5)'
+    backIcon: {
+        height: 40,
+        width: 40
     }
 })
 
